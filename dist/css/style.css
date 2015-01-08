@@ -1,0 +1,130 @@
+html, body
+{
+    height:100%;
+    width:100%;
+}
+
+
+#Myself
+{
+    background:url(../../Me.jpg) no-repeat fixed;
+    height:100%;
+    width:100%;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    
+}
+
+#Myself p
+{
+    color: white;
+    position:absolute;
+	left:680px;
+    top:299px;
+   
+    
+}
+.body
+{
+    font-size:80px;
+}
+
+.html
+{
+    font-size: 41px;
+}
+.h2
+{
+    font-weight:1px;
+}
+
+.text-center
+{
+    text-align:center;
+    font-size:23px;
+}
+.text-size
+{
+   text-align:center;
+    font-size:43px; 
+    box-shadow:8px 5px 5px;
+}
+.text-coloracademic
+{
+    top:225px;
+   color:white;
+    
+}
+.text-colorinterest
+{
+    top:123px;
+    color:white;
+}
+.text-colorcontact
+{
+    top:123px;
+    color:white;
+}
+.text-color
+{
+    color:#A10623;
+}
+.backcolor-academics
+{
+     
+    color:white;
+    width:100%;
+}
+.backcolor-academics p
+{
+    padding-bottom:159px;
+}
+#Academics
+{
+    width:100%;
+    background-color: #F5BB64; 
+}
+.backcolor-interests
+{
+    background-color:#148031; 
+    color:white;
+    width:100%;
+}
+.backcolor-contact
+{
+    background-color:#4C8DCF; 
+    color:white;
+    width:100%;
+}
+.container {
+padding-right: 1px;
+padding-left: 1px;
+margin-right: 1px;
+margin-left: 1px;7
+}
+
+.row {
+ margin-right: 1px; 
+ margin-left: 1px; 
+}
+.navbar-custom 
+{
+  background-color: black;
+    margin:0;
+    border:0;
+    color:white;
+    position:fixed;
+	top:0;
+	width:100%;
+	z-index:3;
+	box-shadow:8px 5px 5px;
+}
+.navbar-default .navbar-brand {
+color: white;
+}
+.navbar-default .navbar-nav>li>a {
+ color:white;
+}
